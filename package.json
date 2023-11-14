@@ -6,6 +6,10 @@
   "bin": {
     "mf.helloworld": "./dist/bin.js"
   },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/markforster/minimal-npm-module"
+  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node ./dist/bin.js",
