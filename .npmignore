@@ -1,0 +1,9 @@
+README.md
+src/**
+*.zip
+*.tgz
+
+webpack.config.*
+tsconfig.*.json
+nodemon.*
+bin/**

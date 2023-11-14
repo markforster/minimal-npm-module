@@ -1,0 +1,25 @@
+{
+  "name": "@markforster/info.markforster.helloworld",
+  "version": "0.0.1",
+  "description": "A Hello World module to test publishing NPM modules",
+  "main": "./dist/index.js",
+  "bin": {
+    "mf.helloworld": "./dist/bin.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node ./dist/bin.js",
+    "dev": "tsc --watch",
+    "build": "./bin/build.sh",
+    "publish:prod": "./bin/publish.sh"
+  },
+  "author": "markforster",
+  "license": "MIT",
+  "devDependencies": {
+    "@tsconfig/node16": "^16.1.0",
+    "@tsconfig/recommended": "^1.0.2",
+    "@types/node": "^20.3.2",
+    "@types/typescript": "^2.0.0",
+    "typescript": "^5.1.6"
+  }
+}
