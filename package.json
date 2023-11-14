@@ -1,6 +1,6 @@
 {
   "name": "@markforster/info.markforster.helloworld",
-  "version": "0.0.1",
+  "version": "0.0.3",
   "description": "A Hello World module to test publishing NPM modules",
   "main": "./dist/index.js",
   "bin": {

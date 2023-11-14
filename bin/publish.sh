@@ -1,4 +1,4 @@
 tsc
 chmod +x ./dist/bin.js
 # npm publish --dry-run
-npm publish
+npm publish --access public
